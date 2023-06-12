@@ -10,8 +10,6 @@ public class PlayerController : MonoBehaviour
     [Header("Physics")]
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _gravity;
-    [SerializeField] private float _jumpForce;
-    [SerializeField] private float _freefallForce;
     [SerializeField] private Vector2 _move;
 
     [Header("Ground Check")]
