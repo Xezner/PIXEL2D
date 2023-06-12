@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d73c123f7503be849967ce9c85b20ed8
-      internalID: 1903305275
+      spriteID: a05f8d7d7e9ca5846a2bc0c45297b86a
+      internalID: 661743870
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9d8c8ee1c352ee4b93bbb5a7491e8eb
-      internalID: 524725613
+      spriteID: 70d5b1fffd56b9a4cab13305ede98891
+      internalID: -1489760154
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 091c9330809a59249b3cba90e1eb26e0
-      internalID: 1078399827
+      spriteID: 907994b88abe2e149b9496ac6a464810
+      internalID: -569010138
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ad4a754aaac2b344b6a38061710d035
-      internalID: 365912667
+      spriteID: fbbde37f3a8d3404db578bfafc28688e
+      internalID: 756893766
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca8f6426fffde3e46a85adfbc34f31b4
-      internalID: -1764398863
+      spriteID: 6e6c896f211623b41881fd411667649a
+      internalID: 1452202056
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 919cef55768f5254ebcb4342da02a8b5
-      internalID: 1854116377
+      spriteID: 9d66711dfcf773a47a2baaf5a8e3a390
+      internalID: 2014460715
       vertices: []
       indices: 
       edges: []
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70dcf98fc599e46469fe15dc053296fd
-      internalID: -1621013831
+      spriteID: 8ea0dbcf236958c45861224a3d03e3e8
+      internalID: -158661224
       vertices: []
       indices: 
       edges: []
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 500e29c1471a37c4e9bf551d8c1f3db4
-      internalID: -16650197
+      spriteID: 115b51cf7144e7e48b0097eca5e27ca7
+      internalID: -1828339608
       vertices: []
       indices: 
       edges: []
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f114e5f83bdca1642a933e458438222a
-      internalID: 1003808210
+      spriteID: d6ac2e706b78609448b69213f810b3f9
+      internalID: -456581308
       vertices: []
       indices: 
       edges: []
@@ -326,8 +326,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f11b9732964096a408a0ab4f79deabdf
-      internalID: 1299505565
+      spriteID: 0459ef6a4e540654a930984cedf09394
+      internalID: 1356126376
       vertices: []
       indices: 
       edges: []
@@ -347,8 +347,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c2e8335c537d5408ad1b24b406a27a
-      internalID: -1473347043
+      spriteID: 64a7daad1fff1f8449a44f44e872ff7c
+      internalID: 467826997
       vertices: []
       indices: 
       edges: []
@@ -364,17 +364,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pinkku_Jump_0: 1903305275
-      Pinkku_Jump_1: 524725613
-      Pinkku_Jump_10: -1473347043
-      Pinkku_Jump_2: 1078399827
-      Pinkku_Jump_3: 365912667
-      Pinkku_Jump_4: -1764398863
-      Pinkku_Jump_5: 1854116377
-      Pinkku_Jump_6: -1621013831
-      Pinkku_Jump_7: -16650197
-      Pinkku_Jump_8: 1003808210
-      Pinkku_Jump_9: 1299505565
+      Pinkku_Jump_0: 661743870
+      Pinkku_Jump_1: -1489760154
+      Pinkku_Jump_10: 467826997
+      Pinkku_Jump_2: -569010138
+      Pinkku_Jump_3: 756893766
+      Pinkku_Jump_4: 1452202056
+      Pinkku_Jump_5: 2014460715
+      Pinkku_Jump_6: -158661224
+      Pinkku_Jump_7: -1828339608
+      Pinkku_Jump_8: -456581308
+      Pinkku_Jump_9: 1356126376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

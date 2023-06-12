@@ -26,6 +26,10 @@ public class PlayerController : MonoBehaviour
     [Header("Player States")]
     [SerializeField] private bool _isJumping = false;
     [SerializeField] private bool _isGrounded = false;
+    [SerializeField] private bool _isFalling = false;
+
+    [Header("Animator")]
+    [SerializeField] private Animator _animator;
 
     // Update is called once per frame
     void Update()
@@ -48,6 +52,22 @@ public class PlayerController : MonoBehaviour
         {
             _move.y = _gravity;
             _isJumping = true;
+        }
+
+        _animator.SetBool("IsGrounded", _isGrounded);
+
+        if(_isGrounded)
+        {
+            _animator.SetBool("IsJumping", false);
+            _animator.SetFloat("MoveX", Mathf.Abs(_move.x));
+        }
+        else
+        {
+            _animator.SetBool("IsJumping", true);
+            _animator.SetFloat("VelocityY", _rigidBody.velocity.y);
+
+            _isFalling = _rigidBody.velocity.y < 0;
+            _animator.SetBool("IsFalling", _isFalling);
         }
     }
 

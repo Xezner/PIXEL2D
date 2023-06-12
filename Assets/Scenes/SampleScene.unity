@@ -53431,6 +53431,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6073032177562563988, guid: 29f963add6eaf9e43a9d4f56d49a0011, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1077862875}
+    - target: {fileID: 6073032177562563988, guid: 29f963add6eaf9e43a9d4f56d49a0011, type: 3}
+      propertyPath: _groundCheckRadius
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387437413460296433, guid: 29f963add6eaf9e43a9d4f56d49a0011, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.833
+      objectReference: {fileID: 0}
     - target: {fileID: 8774633732815910070, guid: 29f963add6eaf9e43a9d4f56d49a0011, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -53480,6 +53492,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29f963add6eaf9e43a9d4f56d49a0011, type: 3}
+--- !u!95 &1077862875 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3705431927073615689, guid: 29f963add6eaf9e43a9d4f56d49a0011, type: 3}
+  m_PrefabInstance: {fileID: 850414003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1598489013
 GameObject:
   m_ObjectHideFlags: 0
