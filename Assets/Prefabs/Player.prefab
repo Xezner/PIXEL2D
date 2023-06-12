@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8387437413460296433}
   - component: {fileID: 9069653794712404384}
   m_Layer: 0
-  m_Name: Square
+  m_Name: GroundChecker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,9 +155,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 5
-  _jumpForce: 5
+  _jumpForce: 7.5
   _move: {x: 0, y: 0}
+  _groundCheck: {fileID: 8387437413460296433}
+  _groundCheckRadius: 0.21
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
   _rigidBody: {fileID: 4516092985043171093}
+  _isJumping: 0
+  _isGrounded: 0
 --- !u!212 &754334322072812466
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -225,7 +232,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.25
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
