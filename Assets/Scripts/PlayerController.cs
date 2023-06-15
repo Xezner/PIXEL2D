@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private float _groundCheckRadius;
     [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private LayerMask _enemyLayer;
 
     [Header("RigidBody")]
     [SerializeField] private Rigidbody2D _rigidBody;
@@ -41,6 +42,7 @@ public class PlayerController : MonoBehaviour
             _move = Vector2.zero;
             return;
         }
+        _animator.ResetTrigger("IsControllable");
 
         if(_isDead)
         {
@@ -102,14 +104,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Checks if the player enters the "death zone"
-        if (collision.gameObject.CompareTag("DeathZone"))
+        if(Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius, _enemyLayer))
+        {
+            Debug.Log("Enemy dead");
+            collision.gameObject.GetComponent<Animator>().SetTrigger("IsDead");
+            _move.y = _gravity / 2;
+            _rigidBody.AddForce(_move, ForceMode2D.Impulse);
+        }
+        //Checks if the player enters the "death zone" or the enemy
+        else if (collision.gameObject.CompareTag("DeathZone") || collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Dead");
             _isDead = true;
             _animator.SetTrigger("IsDead");
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

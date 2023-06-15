@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 64119c5661af7524aa1bae43fccfb52c
+guid: 5309e5404c55efe45b141490720cbcc2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pinkku_Idle_0
+      name: Mako_Death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7a364723585a9d46bf7a005bb8c343e
-      internalID: 1964949594
+      spriteID: 1d77d7afc4a4dbf4ead84aa536f369c0
+      internalID: -2039064204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_1
+      name: Mako_Death_1
       rect:
         serializedVersion: 2
         x: 128
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1373f56173056c4489cce98cb2a50085
-      internalID: -1625507015
+      spriteID: bdcc4cbc75760ff469441e17102ee766
+      internalID: -2068538713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_2
+      name: Mako_Death_2
       rect:
         serializedVersion: 2
         x: 256
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceea0c2ffbda5ae4888c49eb61c613bb
-      internalID: -1090178763
+      spriteID: 156e3f2e8d10d6d4bb390f952ed220d2
+      internalID: -343438448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_3
+      name: Mako_Death_3
       rect:
         serializedVersion: 2
         x: 384
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6286adde2e3bc2041a474338738ec6a4
-      internalID: 21165486
+      spriteID: 6c4311616cb7f2f489cb74bba67b5a87
+      internalID: 1315484058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_4
+      name: Mako_Death_4
       rect:
         serializedVersion: 2
         x: 512
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5bc8a9d844f5884fb0dab2a4fcff2b4
-      internalID: 717370544
+      spriteID: 83adf919130dc3b4a90b0a3877353456
+      internalID: -1525404300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_5
+      name: Mako_Death_5
       rect:
         serializedVersion: 2
         x: 640
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b4a8abd361ac414186570e8af21c858
-      internalID: -970958065
+      spriteID: 5c9dab7bcf3b34e4eb8a892b46f5ac2d
+      internalID: -237265185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_6
+      name: Mako_Death_6
       rect:
         serializedVersion: 2
         x: 768
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4b044eba9099a4f9b7a73a5491acb3
-      internalID: -1884289417
+      spriteID: 416d6f730cc7d5e4eb6eadeab44a06dd
+      internalID: 1394417801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_7
+      name: Mako_Death_7
       rect:
         serializedVersion: 2
         x: 896
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eacbe4cfae9958046a64a191242bc865
-      internalID: 1527993568
+      spriteID: a7ae29c4ab81d7145aab7699643d8c86
+      internalID: 1095463215
       vertices: []
       indices: 
       edges: []
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pinkku_Idle_0: 1964949594
-      Pinkku_Idle_1: -1625507015
-      Pinkku_Idle_2: -1090178763
-      Pinkku_Idle_3: 21165486
-      Pinkku_Idle_4: 717370544
-      Pinkku_Idle_5: -970958065
-      Pinkku_Idle_6: -1884289417
-      Pinkku_Idle_7: 1527993568
+      Mako_Death_0: -2039064204
+      Mako_Death_1: -2068538713
+      Mako_Death_2: -343438448
+      Mako_Death_3: 1315484058
+      Mako_Death_4: -1525404300
+      Mako_Death_5: -237265185
+      Mako_Death_6: 1394417801
+      Mako_Death_7: 1095463215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

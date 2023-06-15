@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 64119c5661af7524aa1bae43fccfb52c
+guid: 57f6325c6aea261468eb9297f998c87b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pinkku_Idle_0
+      name: Mako_idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7a364723585a9d46bf7a005bb8c343e
-      internalID: 1964949594
+      spriteID: 490d0183d6307cc4eb30f0de228508b9
+      internalID: 1467209805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_1
+      name: Mako_idle_1
       rect:
         serializedVersion: 2
         x: 128
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1373f56173056c4489cce98cb2a50085
-      internalID: -1625507015
+      spriteID: ae941a34735f4fb429157bf3ed2bffdd
+      internalID: -1280363079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_2
+      name: Mako_idle_2
       rect:
         serializedVersion: 2
         x: 256
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceea0c2ffbda5ae4888c49eb61c613bb
-      internalID: -1090178763
+      spriteID: b297204d72f9fae49853c0c27a66a018
+      internalID: 1672482762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_3
+      name: Mako_idle_3
       rect:
         serializedVersion: 2
         x: 384
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6286adde2e3bc2041a474338738ec6a4
-      internalID: 21165486
+      spriteID: 907ce26b2cc7f434bb2f55eb14d37191
+      internalID: 941088369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_4
+      name: Mako_idle_4
       rect:
         serializedVersion: 2
         x: 512
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5bc8a9d844f5884fb0dab2a4fcff2b4
-      internalID: 717370544
+      spriteID: 2ca41cd5fdc436f4e86d5ac42f2d5954
+      internalID: 1160804209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_5
+      name: Mako_idle_5
       rect:
         serializedVersion: 2
         x: 640
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b4a8abd361ac414186570e8af21c858
-      internalID: -970958065
+      spriteID: 558b222f4bd3f314e8c0a72883a6c250
+      internalID: -1250181925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_6
+      name: Mako_idle_6
       rect:
         serializedVersion: 2
         x: 768
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad4b044eba9099a4f9b7a73a5491acb3
-      internalID: -1884289417
+      spriteID: d1429e308b02f804ebe660ad1d3e19f3
+      internalID: 402061190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pinkku_Idle_7
+      name: Mako_idle_7
       rect:
         serializedVersion: 2
         x: 896
@@ -284,8 +284,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eacbe4cfae9958046a64a191242bc865
-      internalID: 1527993568
+      spriteID: d67a5a2b1cabcfc42ab45cea2dc2fd0d
+      internalID: 627494352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mako_idle_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed66174bc87da341b09671d9261f5a9
+      internalID: -233608195
       vertices: []
       indices: 
       edges: []
@@ -301,14 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pinkku_Idle_0: 1964949594
-      Pinkku_Idle_1: -1625507015
-      Pinkku_Idle_2: -1090178763
-      Pinkku_Idle_3: 21165486
-      Pinkku_Idle_4: 717370544
-      Pinkku_Idle_5: -970958065
-      Pinkku_Idle_6: -1884289417
-      Pinkku_Idle_7: 1527993568
+      Mako_idle_0: 1467209805
+      Mako_idle_1: -1280363079
+      Mako_idle_2: 1672482762
+      Mako_idle_3: 941088369
+      Mako_idle_4: 1160804209
+      Mako_idle_5: -1250181925
+      Mako_idle_6: 402061190
+      Mako_idle_7: 627494352
+      Mako_idle_8: -233608195
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

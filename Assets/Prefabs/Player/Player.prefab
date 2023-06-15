@@ -162,6 +162,9 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  _enemyLayer:
+    serializedVersion: 2
+    m_Bits: 128
   _rigidBody: {fileID: 4516092985043171093}
   _spriteRenderer: {fileID: 754334322072812466}
   _isJumping: 0
@@ -211,7 +214,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21165486, guid: 64119c5661af7524aa1bae43fccfb52c, type: 3}
+  m_Sprite: {fileID: 1964949594, guid: 64119c5661af7524aa1bae43fccfb52c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -281,6 +284,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01247108, y: -0.48243868}
-  m_Size: {x: 0.40449107, y: 1.0351226}
+  m_Offset: {x: 0.01247108, y: -0.44208765}
+  m_Size: {x: 0.40449107, y: 1.1158247}
   m_Direction: 0
