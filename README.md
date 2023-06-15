@@ -7,7 +7,7 @@ https://docs.google.com/document/d/1MtVZDNDeSgKZ8dhj5J1V68C-V6ifcRhKUTCHfidXaXQ/
 #
 # Creators
 
-**Programmer, Game & Level Designer:** Prencyl Abueg
+**Programmer, Game & Level Designer, UI/UX, Technical Artist:** Prencyl Abueg
 
 **Itch**: https://xezner.itch.io/
 
