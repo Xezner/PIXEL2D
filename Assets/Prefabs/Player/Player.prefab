@@ -166,6 +166,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   _rigidBody: {fileID: 4516092985043171093}
+  _collider: {fileID: 2994855278134310436}
   _spriteRenderer: {fileID: 754334322072812466}
   _isJumping: 0
   _isGrounded: 0

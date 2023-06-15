@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("RigidBody")]
     [SerializeField] private Rigidbody2D _rigidBody;
+    [SerializeField] private Collider2D _collider;
 
     [Header("Player Sprite")]
     [SerializeField] private SpriteRenderer _spriteRenderer;
@@ -34,6 +35,9 @@ public class PlayerController : MonoBehaviour
     [Header("Animator")]
     [SerializeField] private Animator _animator;
 
+    [Header("UI")]
+    [SerializeField] private GameObject _UI;
+
     // Update is called once per frame
     void Update()
     {
@@ -42,6 +46,7 @@ public class PlayerController : MonoBehaviour
             _move = Vector2.zero;
             return;
         }
+
         _animator.ResetTrigger("IsControllable");
 
         if(_isDead)
@@ -115,7 +120,10 @@ public class PlayerController : MonoBehaviour
         else if (collision.gameObject.CompareTag("DeathZone") || collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Dead");
+
             _isDead = true;
+            _collider.enabled = false;
+            _rigidBody.bodyType = RigidbodyType2D.Static;
             _animator.SetTrigger("IsDead");
         }
     }
@@ -128,6 +136,8 @@ public class PlayerController : MonoBehaviour
             Debug.Log("GOAL!");
             _isControllable = false;
             _animator.SetTrigger("IsControllable");
+
+            GameOverScreen();
         }
     }
 
@@ -136,5 +146,10 @@ public class PlayerController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(_groundCheck.position, _groundCheckRadius);
+    }
+
+    public void GameOverScreen()
+    {
+        _UI.SetActive(true);
     }
 }
