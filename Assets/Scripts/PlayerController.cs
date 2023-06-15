@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool _isJumping = false;
     [SerializeField] private bool _isGrounded = false;
     [SerializeField] private bool _isFalling = false;
+    [SerializeField] private bool _isDead = false;
+    [SerializeField] private bool _isControllable = true;
 
     [Header("Animator")]
     [SerializeField] private Animator _animator;
@@ -34,6 +36,19 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!_isControllable)
+        {
+            _move = Vector2.zero;
+            return;
+        }
+
+        if(_isDead)
+        {
+            _rigidBody.velocity = Vector2.zero;
+            _move = Vector2.zero;
+            return;
+        }
+
         //Player input for Movement (left and right)
         _move.x = Input.GetAxisRaw("Move");
 
@@ -58,12 +73,10 @@ public class PlayerController : MonoBehaviour
 
         if(_isGrounded)
         {
-            _animator.SetBool("IsJumping", false);
             _animator.SetFloat("MoveX", Mathf.Abs(_move.x));
         }
         else
         {
-            _animator.SetBool("IsJumping", true);
             _animator.SetFloat("VelocityY", _rigidBody.velocity.y);
 
             _isFalling = _rigidBody.velocity.y < 0;
@@ -73,7 +86,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Logic for grounded
+        //Logic for grounded ->
         _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius, _groundLayer);
 
         //Movemeent logic
@@ -84,6 +97,29 @@ public class PlayerController : MonoBehaviour
         {
             _isJumping = false;
             _rigidBody.AddForce(_move, ForceMode2D.Impulse);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Checks if the player enters the "death zone"
+        if (collision.gameObject.CompareTag("DeathZone"))
+        {
+            Debug.Log("Dead");
+            _isDead = true;
+            _animator.SetTrigger("IsDead");
+        }
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //Reason why it's trigger and not collision because we still want to be able to pass through the object
+        if (collision.gameObject.CompareTag("Goal"))
+        {
+            Debug.Log("GOAL!");
+            _isControllable = false;
+            _animator.SetTrigger("IsControllable");
         }
     }
 

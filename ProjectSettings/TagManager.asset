@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - DeathZone
+  - Goal
+  - Enemy
   layers:
   - Default
   - TransparentFX
